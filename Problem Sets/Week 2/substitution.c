@@ -109,6 +109,7 @@ int substitute(string key)
 {
   string_to_upper(key);
 
+  // user input
   printf("plaintext: ");
   string input = get_string("");
 
